@@ -1,6 +1,7 @@
 // your function goes here
 
-//document.getElementById("myFrame").addEventListener("load", loadListener);
+window.onload = loadListener();
+
 function loadListener() { 
    alert("Loading finished..");
 };
